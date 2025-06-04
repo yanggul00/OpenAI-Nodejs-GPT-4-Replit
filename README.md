@@ -9,12 +9,15 @@ To get started, ensure you have Node.js installed. Follow these steps:
 1. Clone the repository or download the project files.
 2. Navigate to the project directory in your terminal.
 3. Install the required dependencies:import OpenAI from "openai";
+   
    npm install
 
-4. Set up your OpenAI API key in your environment variables. You can do this by creating a `.env` file or exporting it directly:
+5. Set up your OpenAI API key in your environment variables. You can do this by creating a `.env` file or exporting it directly:
+
    export OPENAI_API_KEY="your_api_key_here"
 
-5. Finally, run the application:
+6. Finally, run the application:
+
    node index.js
 
 
