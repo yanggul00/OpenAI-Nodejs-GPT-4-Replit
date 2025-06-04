@@ -1,4 +1,3 @@
-import OpenAI from "openai";
 
 if (process.env.OPENAI_API_KEY === "") {
   console.error(`You haven't set up your API key yet.
